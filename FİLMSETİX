@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ücretsiz Film İzle</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            gap: 1rem;
+        }
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 3rem;
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+            color: #ffffff;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .movies {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .movie {
+            background-color: #1e1e1e;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .movie img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .movie h3 {
+            margin: 0.5rem 0 0;
+            font-size: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #1e1e1e;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Film İzle</div>
+        <nav>
+            <div class="nav-links">
+                <a href="#">Ana Sayfa</a>
+                <a href="#">Kategoriler</a>
+                <a href="#">Hakkında</a>
+                <a href="#">İletişim</a>
+            </div>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>En İyi Filmleri Ücretsiz İzleyin!</h1>
+    </div>
+    <div class="content">
+        <h2>Popüler Filmler</h2>
+        <div class="movies">
+            <div class="movie">
+                <img src="https://via.placeholder.com/200x300" alt="Film Posteri">
+                <h3>Film Adı 1</h3>
+            </div>
+            <div class="movie">
+                <img src="https://via.placeholder.com/200x300" alt="Film Posteri">
+                <h3>Film Adı 2</h3>
+            </div>
+            <div class="movie">
+                <img src="https://via.placeholder.com/200x300" alt="Film Posteri">
+                <h3>Film Adı 3</h3>
+            </div>
+            <div class="movie">
+                <img src="https://via.placeholder.com/200x300" alt="Film Posteri">
+                <h3>Film Adı 4</h3>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Film İzle Platformu. Tüm hakları saklıdır.
+    </footer>
+</body>
+</html>
